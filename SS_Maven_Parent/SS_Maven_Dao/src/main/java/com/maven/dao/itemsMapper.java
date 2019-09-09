@@ -11,4 +11,7 @@ public interface itemsMapper {
 
     //添加
     public void insert(User user);
+    
+    //删除
+    public void delete(int id);
 }
